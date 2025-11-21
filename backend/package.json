@@ -1,23 +1,28 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Serveur Node.js pour le projet Blue Rio (API & Chat Socket.io)",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"  
   },
-  "keywords": [],
+  "keywords": [
+    "express",
+    "mongodb",
+    "socket.io"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^17.2.3",
-    "express": "^5.1.0",
-    "mongoose": "^8.20.0",
-    "socket.io": "^4.8.1"
+    "express": "^4.21.0",
+    "mongoose": "^8.0.0",
+    "socket.io": "^4.7.2",
+    "http": "^0.0.1-security"
   },
   "devDependencies": {
-    "nodemon": "^3.1.11"
+    "nodemon": "^3.1.0"
   }
 }
